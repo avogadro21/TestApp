@@ -24,7 +24,7 @@ public class UsersDaoImpl extends BaseDao implements UsersDao {
 	}
 
 	@Override
-	public void delete(String id) throws Exception {
+	public void deleteById(String id) throws Exception {
 		em.remove(id);
 	}
 	

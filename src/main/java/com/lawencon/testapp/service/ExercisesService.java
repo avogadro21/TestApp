@@ -1,12 +1,12 @@
-package com.lawencon.testapp.dao;
+package com.lawencon.testapp.service;
 
 import java.util.List;
 
 import com.lawencon.testapp.model.Exercises;
 
-public interface ExercisesDao {
+public interface ExercisesService {
 	
-List<Exercises> getListExercises() throws Exception;
+	List<Exercises> getListExercises() throws Exception;
 	
 	Exercises insert(Exercises data) throws Exception;
 	

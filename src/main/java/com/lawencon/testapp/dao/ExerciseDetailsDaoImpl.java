@@ -24,7 +24,7 @@ public class ExerciseDetailsDaoImpl extends BaseDao implements ExerciseDetailsDa
 	}
 
 	@Override
-	public void delete(String id) throws Exception {
+	public void deleteById(String id) throws Exception {
 		em.remove(id);
 	}
 

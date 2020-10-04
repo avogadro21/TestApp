@@ -1,10 +1,10 @@
-package com.lawencon.testapp.dao;
+package com.lawencon.testapp.service;
 
 import java.util.List;
 
 import com.lawencon.testapp.model.Users;
 
-public interface UsersDao {
+public interface UsersService {
 	
 	List<Users> getListUsers() throws Exception;
 	
@@ -13,5 +13,5 @@ public interface UsersDao {
 	Users update(Users data) throws Exception;
 	
 	void deleteById(String id) throws Exception;
-
+	
 }

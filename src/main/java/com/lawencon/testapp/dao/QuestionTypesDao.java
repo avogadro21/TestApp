@@ -12,6 +12,6 @@ public interface QuestionTypesDao {
 	
 	QuestionTypes update(QuestionTypes data) throws Exception;
 	
-	void delete(String id) throws Exception;
+	void deleteById(String id) throws Exception;
 	
 }

@@ -12,6 +12,6 @@ List<Questions> getListQuestions() throws Exception;
 	
 	Questions update(Questions data) throws Exception;
 	
-	void delete(String id) throws Exception;
+	void deleteById(String id) throws Exception;
 
 }

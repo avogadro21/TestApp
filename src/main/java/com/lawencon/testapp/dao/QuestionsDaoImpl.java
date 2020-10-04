@@ -24,7 +24,7 @@ public class QuestionsDaoImpl extends BaseDao implements QuestionsDao{
 	}
 
 	@Override
-	public void delete(String id) throws Exception {
+	public void deleteById(String id) throws Exception {
 		em.remove(id);
 	}
 	
